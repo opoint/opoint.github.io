@@ -18,7 +18,7 @@
 				, wrapperWidth : 200
 				, wrapperHeight : 200
 			});
-			$("#fakecrop .fancybox").fancybox();
+			$("#fakecrop img").fancybox();
 		});
 	</script>
 </head>
