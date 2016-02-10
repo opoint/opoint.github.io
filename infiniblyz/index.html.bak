@@ -1,0 +1,252 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>INFINIBLYZ</title>
+	<link rel="stylesheet" href="css/common.css" />
+	<link rel="stylesheet" href="assets/jquery.fullpage.css" />
+	<link rel="stylesheet" href="assets/vegas.css" />
+	<link rel="stylesheet" href="assets/slick.css" />
+	<link rel="stylesheet" href="css/menu.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<!--[if IE 8]>
+		<link rel="stylesheet" href="css/ie8.css" />
+	<![endif]-->
+	<!--[if lt IE 8]>
+		<link rel="stylesheet" href="css/ie7.css" />
+	<![endif]-->
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="assets/jquery.fullpage.js"></script>
+	<script type="text/javascript" src="assets/vegas.min.js"></script>
+	<script type="text/javascript" src="assets/slick.min.js"></script>
+	<script type="text/javascript" src="assets/jquery.slidereveal.min.js"></script>
+	<script type="text/javascript">
+		jQuery(function($){
+						
+		});
+	</script>
+	<script type="text/javascript" src="js/menu.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/main_init.js" charset="utf-8"></script>
+</head>
+<body class="main">
+	<div class="top">
+		<div class="top-btn-wrap">
+			<a href="#" class="top-btn btn-open"><i class="material-icons">menu</i><!--[if lt IE 10]><i class="material-icons">&#xE5D2;</i><![endif]--></a>
+			<a href="#" class="top-btn btn-close"><i class="material-icons">clear</i><!--[if lt IE 10]><i class="material-icons">&#xE14C;</i><![endif]--></a>
+		</div>
+	</div>
+	<div class="slider-menu">
+		<div class="menu-inner">
+			<ul class="depth1-container">
+				<li class="depth1">
+					<div class="menu-logo-wrap home"><a class="clearfix" href="index.html"><i class="material-icons">home</i><!--[if lt IE 10]><i class="material-icons">&#xE88A;</i><![endif]--> <span>메인으로</span></a></div>
+				</li>
+				<li class="depth1 lov">
+					<div class="depth1-inner">
+						<div class="menu-logo-wrap lov"><a href="#" class="menu-logo">러블리즈 메뉴</a></div>
+						<div class="depth2-container hide">
+							<ul class="depth2-menu">
+								<li class="depth2"><a href="lovelyz/main.html">그룹소개</a></li>
+								<li class="depth2"><a href="lovelyz/member.html">멤버소개</a></li>
+								<li class="depth2"><a href="lovelyz/history.html">히스토리</a></li>
+								<li class="depth2"><a href="lovelyz/data.html">관련자료</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+				<li class="depth1 inf">
+					<div class="depth1-inner">
+						<div class="menu-logo-wrap inf"><a href="#" class="menu-logo">인피니트 메뉴</a></div>					
+						<div class="depth2-container hide">
+							<ul class="depth2-menu">
+								<li class="depth2"><a href="infinite/main.html">그룹소개</a></li>
+								<li class="depth2"><a href="infinite/member.html">멤버소개</a></li>
+								<li class="depth2"><a href="infinite/history.html">히스토리</a></li>
+								<li class="depth2"><a href="infinite/data.html">관련자료</a></li>
+							</ul>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div id="fullpage">
+		<div class="section section0">
+			<div class="bg-wrap"><div class="lov-bg section-bg"></div></div>
+			<div class="section-container">
+				<div class="contents-wrap">
+					<div class="logo-wrap lov-logo-wrap">
+						<h1 class="logo"><a class="menu-hide" href="lovelyz/main.html">러블리즈 로고</a></h1>
+						<div class="btn-wrap pt20 hide">
+							<a href="lovelyz/main.html" class="btn-box">
+								<div class="txt hide">알아보기</div>
+								<div class="arrow pt5 hide"><i class="material-icons">keyboard_arrow_right</i><!--[if lt IE 10]><i class="material-icons">&#xE315;</i><![endif]--></div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section section1">
+			<div class="bg-wrap"><div class="inf-bg section-bg"></div></div>
+			<div class="section-container">
+				<div class="contents-wrap">
+					<div class="logo-wrap inf-logo-wrap">
+						<h1 class="logo"><a href="infinite/main.html">인피니트 로고</a></h1>
+						<div class="btn-wrap pt20 hide">
+							<a href="infinite/main.html" class="btn-box">
+								<div class="txt hide">알아보기</div>
+								<div class="arrow pt5 hide"><i class="material-icons">keyboard_arrow_right</i><!--[if lt IE 10]><i class="material-icons">&#xE315;</i><![endif]--></div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section section2">
+			<div class="sec2-wrap">
+				<div class="contents-wrap">
+					<div class="caro-bg inf-caro-bg"></div>
+					<div class="caro-bg lov-caro-bg"></div>
+					<div class="caro-container inf-caro-container clearfix">
+						<div class="caro-wrap inf-caro-wrap">
+							<div class="my-caro inf-caro">
+								<div class="item">
+									<div class="item-box">
+										<div class="item-box-inner">
+											<div class="img-wrap"><img src="imgs/main/infinite/inf_back_prac.png" alt="인피니트 백 안무 동영상 썸네일" /></div>
+											<div class="desc-wrap">
+												<p><a href="#">INFINITE "Back" Dance Practice</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="item-box bgc-white">
+										<div class="item-box-inner">
+											<div class="img-wrap"><img src="imgs/main/infinite/inf_back_high.png" alt="인피니트 백 안무 하이라이트 이미지" /></div>
+											<div class="desc-wrap">
+												<p><a href="#">BACK 안무 하이라이트</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="item-box">
+										<div class="item-box-inner">
+											<div class="img-wrap"><img src="imgs/main/infinite/inf_bad_mv.png" alt="인피니트 배드 뮤직비디오 썸네일" /></div>
+											<div class="desc-wrap">
+												<p><a href="#">인피니트(INFINITE) "Bad" Official MV</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="item-box">
+										<div class="item-box-inner">
+											<div class="img-wrap"><img src="imgs/main/infinite/inf_radio1.png" alt="인피니트 라디오 동영상 썸네일" /></div>
+											<div class="desc-wrap">
+												<p><a href="#">150720 최파타 인피니트 자막ver -멤버들의 핸드폰</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="item-box">
+										<div class="item-box-inner">
+											<div class="img-wrap"><img src="imgs/main/infinite/inf_weekly1.png" alt="주간아이돌 인피니트 랜덤플레이댄스 동영상 썸네일" /></div>
+											<div class="desc-wrap">
+												<p><a href="#">주간아이돌 - 152회 인피니트 랜덤플레이댄스</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="btn btn-prev"><a href="#"><i class="material-icons">keyboard_arrow_left</i><!--[if lt IE 10]><i class="material-icons">&#xE314;</i><![endif]--></a></div>
+							<div class="btn btn-next"><a href="#"><i class="material-icons">keyboard_arrow_right</i><!--[if lt IE 10]><i class="material-icons">&#xE315;</i><![endif]--></a></div>
+						</div>
+						<div class="caro-desc-wrap inf-caro-desc-wrap">
+							<div class="caro-desc-container inf-caro-desc-container ta-c">
+								<div class="desc">인피니트의<br />신박한 영상이<br />궁금하다면</div>							
+								<div class="btn-more clearfix">
+									<div class="txt">더 보기</div>
+									<div class="arrow"><a href="infinite/data.html"><i class="material-icons">keyboard_arrow_right</i><!--[if lt IE 10]><i class="material-icons">&#xE315;</i><![endif]--></a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="caro-container lov-caro-container clearfix">
+						<div class="caro-desc-wrap lov-caro-desc-wrap">
+							<div class="caro-desc-container lov-caro-desc-container ta-c">
+								<div class="desc">러블리즈의<br />입덕영상을<br />보고싶다면</div>								
+								<div class="btn-more clearfix">
+									<div class="txt">더 보기</div>
+									<div class="arrow"><a href="lovelyz/data.html"><i class="material-icons">keyboard_arrow_right</i><!--[if lt IE 10]><i class="material-icons">&#xE315;</i><![endif]--></a></div>
+								</div>
+							</div>
+						</div>
+						<div class="caro-wrap lov-caro-wrap">
+							<div class="my-caro lov-caro">
+								<div class="item">
+									<div class="item-box">
+										<div class="item-box-inner">
+											<div class="img-wrap"><img src="imgs/main/lovelyz/lov_hi_prac.png" alt="러블리즈 안녕 안무 연습 동영상 썸네일" /></div>
+											<div class="desc-wrap">
+												<p><a href="#">LOVELYZ "안녕(Hi~)" Dance Practice</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="item-box">
+										<div class="item-box-inner">
+											<div class="img-wrap"><img src="imgs/main/lovelyz/lov_kei_ghost.png" alt="귀신을 본 러블리즈 케이 동영상 썸네일" /></div>
+											<div class="desc-wrap">
+												<p><a href="#">귀신을 본 러블리즈 케이의 반응</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="item-box">
+										<div class="item-box-inner">
+											<div class="img-wrap"><img src="imgs/main/lovelyz/lov_interview1.png" alt="러블리즈 류수정, 케이 인터뷰 썸네일" /></div>
+											<div class="desc-wrap">
+												<p><a href="#">러블리즈와 크리스마스를│류수정, Kei의 이야기</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="item-box">
+										<div class="item-box-inner">
+											<div class="img-wrap"><img src="imgs/main/lovelyz/lov_news1.png" alt="러블리즈 해외에 소개 뉴스 썸네일" /></div>
+											<div class="desc-wrap">
+												<p><a href="#">해외매체에도 소개된 러블리즈의 마이클 잭슨 커버 영상</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="item-box">
+										<div class="item-box-inner">
+											<div class="img-wrap"><img src="imgs/main/lovelyz/lov_mlt.png" alt="러블리즈 마리텔 동영상 썸네일" /></div>
+											<div class="desc-wrap">
+												<p><a href="#">151108 러블리즈 20 케이 : 나 햄 나아~ 햄햄햄</a></p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="btn btn-prev"><a href="#"><i class="material-icons">keyboard_arrow_left</i><!--[if lt IE 10]><i class="material-icons">&#xE314;</i><![endif]--></a></div>
+							<div class="btn btn-next"><a href="#"><i class="material-icons">keyboard_arrow_right</i><!--[if lt IE 10]><i class="material-icons">&#xE315;</i><![endif]--></a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- <div class="section section3">section4</div> -->
+	</div>
+	
+</body>
+</html>
