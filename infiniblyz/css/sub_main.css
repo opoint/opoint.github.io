@@ -1,0 +1,47 @@
+@charset "utf-8";
+body.sub{background-color:#222;}
+.contents-wrap{margin:0 auto;width:1024px;}
+
+.slider-wrap{float:left;padding-top:150px;width:640px;}
+.main-desc{float:left;padding-top:100px;width:384px;color:#fff;}
+
+#slider{width:640px;}
+#slider .img-wrap{padding:10px;}
+#slider.lov .img-wrap{background-color:#ccc;border:1px solid #F35361;}
+#slider.inf .img-wrap{background-color:#fff;border:1px solid #00A5FF;}
+#slider .img-wrap img{width:618px;}
+.slider-box{position:relative;}
+.slider-box .bx-pager{margin:0 auto;margin-top:10px;width:100px;}
+.slider-box .bx-pager:after{display:block;clear:both;content:'';}
+.slider-box .bx-pager-item{float:left;margin:5px;}
+.slider-box .bx-pager-item a{display:block;width:10px;height:10px;background-color:#515151;border-radius:50%;text-indent:-9999px;}
+.slider-box .bx-pager-item a.active, .slider-box .bx-pager-item a:hover{background-color:#fff;}
+.slider-box .bx-controls-direction{display:none;}
+.slider-box .btn{position:absolute;top:170px;width:80px;height:80px;z-index:100;}
+.slider-box .btn a{display:block;width:80px;height:80px;background-image:url('../imgs/main/arrow_bg.png');}
+.slider-box .btn a:hover{background-image:url('../imgs/main/arrow_ov_bg.png');}
+.slider-box .btn a i{font-size:80px;color:#fff;}
+.slider-box .btn a:hover i{color:#000;}
+.slider-box .btn-prev{left:5px;}
+.slider-box .btn-next{right:5px;}
+
+.main-desc .logo{margin:0 auto;text-indent:-9999px;}
+.main-desc.lov .logo{width:250px;height:202px;background-image:url('../imgs/lovelyz/main/logo.png');}
+.main-desc.inf .logo{width:330px;height:248px;background-image:url('../imgs/infinite/main/logo.png');}
+.main-desc .desc-wrap{padding-left:30px;font-size:14px;}
+.main-desc h2{padding-top:20px;font-size:18px;}
+.desc-box{padding-top:20px;list-style:none;}
+.desc-box li{padding:8px 0;}
+.desc-box .title{padding-top:2px;float:left;width:80px;color:#cacaca;}
+.desc-box .desc{float:left;width:270px;}
+.desc-box .desc a{color:#fff;}
+.desc-box .desc i{font-size:12px;color:#3CAD0D;}
+.more-wrap{padding-top:50px;}
+.more-wrap .more{padding:10px 10px 10px 20px;margin:0 auto;width:105px;height:28px;border-radius: 24px;text-align:center;}
+.more-wrap.lov .more{background-color:#f79ea6;}
+.more-wrap.inf .more{background-color:#5c97b8;}
+.more .txt{float:left;padding-top:1px;}
+.more .arrow{float:left;}
+.more .arrow a{display:block;padding:1px 3px 3px 5px;width:24px;height:24px;}
+
+/* 인피니트 */
